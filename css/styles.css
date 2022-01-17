@@ -1,0 +1,173 @@
+.background {
+    background-color:  hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.card {
+    /* Ajouter de l'ombre pour faire l'effet de la carte */
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    max-width: 375px;
+    display: block;
+    text-align: left;
+    margin: 100px auto 100px auto;
+    padding: 20px 20px;
+}
+
+.img-clock {
+    float: left;
+    padding-right: 8px;
+    padding-top: 4px;
+    
+}
+
+.img-eth {
+    float: left;
+    padding-right: 8px;
+    margin-top: 17px;
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+
+.eth {
+    float: left;
+    margin-right: 150px;
+}
+
+
+.container-bid {
+    display: inline-block;
+    width: 100%;
+
+}
+
+.text-author {
+    color: whitesmoke;
+}
+
+.text-author:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+h2:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.container {
+    /** padding: 5px 20px 10px; **/
+}
+
+.nft {
+    display: inline-block;
+    border-radius: 7px;
+   /** margin: 17px 0px 0px 0px; **/
+    width: 100%;
+    height: auto;
+}
+
+.image-container {
+    position: relative;
+    width: 375px;
+    height: 375px;
+    max-width: 375px;
+    background-image: url(../images/image-equilibrium.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0px;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    border-radius: 7px;
+    transition: .3s ease;
+    background-color: hsl(178, 100%, 50%);
+}
+
+.icon-view2 {
+    position: relative;
+    top: 45%;
+    left: 45%;
+}
+
+.overlay-view {
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0px;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    border-radius: 7px;
+    transition: .3s ease;
+}
+/**
+.icon-view {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+**/
+.image-container:hover .overlay {
+    opacity: 0.7;
+}
+
+.image-container:hover .overlay-view {
+    opacity: 1;
+}
+
+.p-author {
+    float: left;
+}
+
+.author {
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 10%;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+    bottom: 5px;
+}
+
+hr {
+    border: 1px solid hsl(215, 32%, 27%);
+}
+
+.coded {
+    padding-bottom: 10px;
+}
+
+.attribution {
+    line-height: 40px;
+    display: inline-block;
+}
+
+a:link {
+    text-decoration: none;
+    color: hsl(178, 100%, 50%);
+}
+
+a:visited {
+    text-decoration: none;
+    color: hsl(178, 100%, 50%);
+}
+
+a:hover {
+    color: whitesmoke;
+}
